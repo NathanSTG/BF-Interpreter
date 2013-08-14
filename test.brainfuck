@@ -1,0 +1,22 @@
++++++ +++++        Set pointer 0 to 10
+[
+ > +++++ ++        Set pointer 1 to 70
+ > +++++ +++++     Set pointer 2 to 100
+ > +++++ +++++ ++  Set pointer 3 to 120
+ > +++             Set pointer 4 to 30
+
+ <<<< -            Decrement pointer 0
+]
+
+> ++.                   Output 'H'  Pointer 1 = 72
+> +.                    Output 'e'  Pointer 2 = 101
++++++ ++.               Output 'l'  Pointer 2 = 108
+.                       Output 'l'  Pointer 2 = 108
++++.                    Output 'o'  Pointer 2 = 111
+>> ++.                  Output ' '  Pointer 4 = 32
+<<< +++ +++++ +++++ ++. Output 'W'  Pointer 1 = 87
+>.                      Output 'o'  Pointer 2 = 111
++++.                    Output 'r'  Pointer 2 = 114
+----- -.                Output 'l'  Pointer 2 = 108
+----- ---.              Output 'd'  Pointer 2 = 100
+>> +++++ +++++ ++++.    Output 'dot'  Pointer 4 = 46
